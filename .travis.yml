@@ -1,0 +1,13 @@
+sudo: required
+
+language: c
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t phenompeople/centos-tomcat:8.0.45 8.0.45
+
+script:
+  - docker run -it --rm phenompeople/centos-tomcat:8.0.45 /opt/deployment/apache-tomcat/bin/version.sh
