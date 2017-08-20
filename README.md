@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/phenompeople/apache-tomcat.svg?branch=master)](https://travis-ci.org/phenompeople/apache-tomcat)
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/apache-tomcat)
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/centos-tomcat.svg)](https://hub.docker.com/r/phenompeople/centos-tomcat/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/centos-tomcat.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-tomcat/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/centos-tomcat.svg?style=plastic)](https://hub.docker.com/r/phenompeople/centos-tomcat/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Apache Tomcat
